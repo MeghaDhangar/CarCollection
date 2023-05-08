@@ -20,7 +20,7 @@ public class CarCollection implements Showroom {
         while((!type.equals("sedan"))&& (!type.equals("Luxury"))&&(!type.equals("suv"))&&(!type.equals("Hatchback")));
             
         switch (type) {
-            // CASE 1 SUV SONALI BANSAL !
+          
             case "suv":
                 System.out.println("Your Choice is SUV !\nSUV cars known for POWER");
                 System.out.println(
@@ -82,7 +82,7 @@ public class CarCollection implements Showroom {
                     }
                 }}
                 break;
-            // CASE 2 NAVIN JOSHI SEDAN !
+           
 
             case "sedan":
                 System.out.println("\nYour choice is Sedan !\n(Sedan cars is known for comfort)\n");
@@ -140,7 +140,7 @@ public class CarCollection implements Showroom {
                     }
                     break;
                 }}
-                   // CASE 3 MEGHA DHANGAR 
+                
                 case "Luxury":
                 System.out.println("\n your choice is luxury !( luxury cars are known for your comfort)\n ");
                 System.out.println(
@@ -200,7 +200,7 @@ public class CarCollection implements Showroom {
                     }
                 }
             }
-                // CASE 4 HIMANSHU HATCBACK!
+              
             case "hatchback":
                 System.out.println("Your choice is hatchback\n hatchhback car's are known as famliy cars");
 
