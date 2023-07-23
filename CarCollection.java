@@ -20,7 +20,6 @@ public class CarCollection implements Showroom {
         while((!type.equals("sedan"))&& (!type.equals("Luxury"))&&(!type.equals("suv"))&&(!type.equals("Hatchback")));
             
         switch (type) {
-          
             case "suv":
                 System.out.println("Your Choice is SUV !\nSUV cars known for POWER");
                 System.out.println(
@@ -82,8 +81,7 @@ public class CarCollection implements Showroom {
                     }
                 }}
                 break;
-           
-
+                
             case "sedan":
                 System.out.println("\nYour choice is Sedan !\n(Sedan cars is known for comfort)\n");
                 System.out.println(
@@ -112,7 +110,6 @@ public class CarCollection implements Showroom {
                             System.out.println(
                                     "~ Verna  price-:1500000/-\n~ Texan  price-:1358000/-\n~ Elantra  price-: 1238700/-");
                         }
-
                     }
                     if (brand.equals("marutisuzuki")) {
                         if ((budget >= 900000 && budget <= 1200000) || (budget > 1200000)) {
@@ -191,8 +188,6 @@ public class CarCollection implements Showroom {
                         }
 
                     }
-                
-
                 if (brand.equals("mercedes")) {
                     if ((budget >= 5000000 && budget <= 8000000) || (budget > 8000000)) {
                         System.out.println(" - V class price-: 6000000/-\n GLC coupe price-:6500500/-");
@@ -206,15 +201,11 @@ public class CarCollection implements Showroom {
 
                 System.out
                         .println("We have several top  brands of Hatchback like\n: Hyundai,MarutiSuzuki,Tata,Honda: ");
-
                 System.out.println("Enter which brand do you prefer. \nHyundai OR MarutiSuzuki OR Tata OR Honda: - \n");
                 brand = sc.nextLine();
                 if(brand.equals("tata")||brand.equals("marutisuzuki")||brand.equals("hyundai")||brand.equals("honda")){
-                    
                     System.out.println("Enter your budget  for hatchback car:-");
                     budget = sc.nextInt();
-              
-
                 if (brand.equals("hyundai")) {
                     if (budget < 400000) {
                         System.out.println("NO CARS AVAILABLE AT THIS PRICE\n SORRY :");
@@ -246,7 +237,6 @@ public class CarCollection implements Showroom {
                         System.out.println(
                                 " In this budget you can also buy Sedan cars So please check our Sedan cars !");
                     }
-
                 }
                 if (brand.equals("honda")) {
                     if (budget < 400000) {
@@ -279,15 +269,12 @@ public class CarCollection implements Showroom {
                     }
 
                     break;
-                }
-            }
+                     }
+                     }
                     default:
                     System.out.println("invalid type");
-    
                     sc.close();
                       
-                }}
-               
-    
-            }
+                    }}
+                     }
 
